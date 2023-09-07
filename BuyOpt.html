@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+ /* Reset some default browser styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #02aec5;
+}
+
+/* Style the header */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    margin: 20px 0;
+}
+
+/* Define the grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    gap: 15px; /* Adjust the gap between grid items as needed */
+}
+
+/* Style the individual grid items */
+.grid-item {
+    text-align: center;
+    border: 2px solid #0e0d0d; /* Adjust border width and color as needed */
+    border-radius: 10px; /* Adjust the border radius for soft corners */
+    padding: 10px 10px 10px 10px; /* Optional: Add padding for spacing around the content */
+    background: rgb(63, 214, 207);
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+/* Style the images within each grid item */
+.grid-item img {
+    height: 125px; /* Set your desired height */
+    width: 200px; /* Set your desired width */
+}
+
+/* Style the heading (h6) within each grid item */
+.grid-item h6 {
+    font-size: 20px; /* Set your desired font size */
+    font-weight: bold; /* Set your desired font weight */
+    color: white;
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: left;
+    }
+}
+/* Style the footer */
+footer {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the text within the footer */
+footer p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Style the anchor links */
+footer a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Style the social media icons */
+footer img {
+    width: 32px; /* Set the icon width */
+    height: 32px; /* Set the icon height */
+    transition: transform 0.3s ease; /* Add a subtle hover effect */
+}
+
+/* Add a hover effect to the icons */
+footer img:hover {
+    transform: scale(1.2); /* Increase the size on hover */
+}
+ /* Style for the scroller container */
+.scroller-container {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    background: grey;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    }
+
+/* Style for the scrolling text */
+.scrolling-text {
+    display: inline-block;
+    animation: scrolling 10s linear infinite; /* Adjust animation speed as needed */
+}
+
+/* Keyframes for the scrolling animation */
+    @keyframes scrolling {
+        0% {
+        transform: translateX(100%);
+        }
+        100% {
+        transform: translateX(-100%);
+        }
+    }
+/* Style the anchor as a button */
+a {
+    text-decoration: none; /* Remove underlines from the anchor text */
+}
+
+/* Style the button */
+button {
+    background-color: #007bff; /* Set the button background color */
+    color: #fff; /* Set the button text color */
+    padding: 10px 20px; /* Add padding to the button */
+    border: none; /* Remove the button border */
+    border-radius: 5px; /* Round the button corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    margin-left: 15px; 
+}
+
+/* Add a hover effect to the button */
+button:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+}
+</style>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Purchase Options</title>
+</head>
+<body>
+    <div class="scroller-container">
+        <div class="scrolling-text">
+            <div class="heading">
+                <h1>You can purchase the book on the following platforms and more will be added soon.</h1>
+            </div>
+        </div>
+    </div><br>
+    <a href="Home.html">
+        <button>Back to Home</button><br><br>
+    </a>
+    <div class="grid-container">
+        <div class="grid-item">
+            <a href="https://www.barnesandnoble.com/w/true-hermeneutics-mbulelo-e-mandindi/1143744810"><img src="Barnes&Noble.jpeg" height="100" width="150" alt="Barnes&Noble"><h6>Barnes&Noble</h6></a>
+        </div>
+        <div class="grid-item">
+            <a href="https://www.gandhi.com.mx/true-hermeneutics-1"><img src="gandhi.webp" height="100" width="150" alt="Gandhi.com"><h6>Gandhi</h6></a>
+        </div>
+        <div class="grid-item">
+            <a href="https://books.rakuten.co.jp/rk/0d07044604df3cadb4ebaa614bb19480/"><img src="Rakuten.png" height="100" width="150" alt="Rakuten"><h6>Rakuten</h6></a>
+        </div>
+        <div class="grid-item">
+            <a href="https://www.decitre.fr/ebooks/true-hermeneutics-9798223121053_9798223121053_10020.html"><img src="decitre.png" height="100" width="150" alt="Decitre"><h6>Decitre</h6></a>
+        </div>
+        <div class="grid-item">
+            <a href="https://www.ibs.it/true-hermeneutics-ebook-inglese-mbulelo-e-mandindi/e/9798223121053"><img src="ibs.svg" height="100" width="150" alt="Ibs.IT"><h6>Ibs.IT</h6></a>
+        </div>
+        <div class="grid-item">
+            <a href="www.apple.com"><img src="Apple_logo_PNG1.png" height="100" width="150" Alt="Apple"><h6>Apple</h6></a>
+        </div>
+        <div class="grid-item">
+            <a href="www.Bibliotheca.com"><img src="Bibliotheca.png" height="100" width="150" alt="Bibliotheca"><h6>Bibliotheca</h6></a>
+        </div>
+        <div class="grid-item">
+            <a href="www.Smashwords.com"><img src="Smashwords.png" height="100" width="150" alt="Smashwords"><h6>Smashwords</h6></a>
+        </div>
+        <div class="grid-item">
+            <a href="www.Gardners.com"><img src="Gardners.png" height="100" width="150" alt="Gardners"><h6>Gardners</h6></a>
+        </div>
+        <div class="grid-item">
+            <a href="www.Baker & Taylor.com"><img src="Baker&Taylor.png" height="100" width="150" alt="Baker & Taylor"><h6>Baker & Taylor</h6></a>
+        </div>
+        <div class="grid-item">
+            <a href="www.Hoopla.com"><img src="Hoopla.png" height="100" width="150" alt="Hoopla"><h6>Hoopla</h6></a>
+        </div>
+        <div class="grid-item">
+            <a href="www.OverDrive.com"><img src="OverDrive.png" height="100" width="150" alt="OverDrive"><h6>Overdrive</h6></a>
+        </div>
+        <!-- <div class="grid-item">
+            <a href="www.Kobo.com"><img src="Kobo.png" height="100" width="150" alt="Kobo"><h6>Kobo</h6></a>
+        </div> -->
+    </div>
+    <br>
+</body>
+<footer>   
+    Contact us on: <br>
+    <a href="https://www.facebook.com/TrueHermeneutics/"><img src="facebook.png"></a>
+    <a href="https://www.instagram.com/true_hermeneutics/"><img src="instagram.png"></a><br>   
+</footer>
+</html>

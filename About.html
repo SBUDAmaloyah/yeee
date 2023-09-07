@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+      #navigation {
+        background-color: rgb(0, 237, 245);
+        color: white;
+        padding: 10px;
+        text-align: center;
+        margin-top: 10px;
+      }
+      #navigation a {
+        color: white;
+        text-decoration: none;
+        margin-right: 10px;
+      }
+      section {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+        animation: animate__animated animate__bounce;
+      }
+      
+      p {
+        font-size: 18px;
+        margin-bottom: 20px;
+     }
+
+     footer {
+      text-align: center;
+      background-color: #333; /* Background color for the footer */
+      color: #fff; /* Text color for the footer */
+      padding: 20px; /* Padding around the content within the footer */
+    }
+
+    footer a {
+      text-decoration: none; /* Remove underlines from links */
+      margin: 0 10px; /* Add margin between social media icons */
+    }
+
+    footer img {
+      width: 40px; /* Adjust the width of the social media icons */
+      height: 40px; /* Adjust the height of the social media icons */
+    }
+    body {
+    font-family: Georgia, "Times New Roman", serif;
+    margin: 0;
+    padding: 0;
+}
+
+.newspaper-article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #085d72;
+}
+
+.newspaper-article img {
+    float: right;
+    margin-left: 20px;
+    border: 2px solid #333;
+}
+
+.article-title {
+    font-size: 28px;
+    margin-top: 0;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .newspaper-article {
+        padding: 10px;
+    }
+}
+  </style>
+      
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <title>About</title>
+</head>
+<body>
+  <div id="navigation" class="navbar visible">
+    <a href="Home.html" onclick="showPage('home')">Home</a> 
+    <a href="About.html" onclick="showPage('about')">About</a>
+    <a href="Contact.html" onclick="showPage('SignUp')">SignUp</a>
+</div>
+    <section>
+      <h2 class="animate__animated animate__bounce">About the Author</h2><br>
+      <article class="newspaper-article">
+        <img src="Mbulelo.jpg" height="350" width="250" alt="Author's Image">
+        <h1 class="article-title">Mbulelo E. Mandindi</h1>
+        <p>
+            I was born in South Africa, Dube Village, in the massive
+            township of Soweto, Johannesburg, which is known as the
+            City of gold. My mother was Xhosa, and father a Zulu. I
+            left the township at the age of five and went to an obscure
+            rural area in the province of the Eastern Cape where I grew
+            up as a shepherd boy, looking after my aunt’s livestock.
+            Although a backwater, I believe it helped me understand
+            nature and life; the silence allowed me to contemplate.
+        </p>
+        <p>
+            Growing up in the villages, entertainment was limited. But there
+            was boxing, rugby, and football, which we loved. The Eastern Cape
+            is the South African home of Boxing.
+        </p>
+        <p>
+            After finishing matric, I went to stay in Cape Town which I loved as
+            a young adult, but as time passed my stay in Cape Town became difficult.
+            Living in the townships (Langa and Gugulethu) was harsh.
+        </p>
+    </article>
+
+    </section>
+    
+    <script src="True.php"></script>
+</body>
+<footer>   
+  Contact us on: <br>
+  <a href="https://www.facebook.com/TrueHermeneutics/"><img src="facebook.png"></a>
+  <a href="https://www.instagram.com/true_hermeneutics/"><img src="instagram.png"></a><br>   
+</footer>
+</html>
